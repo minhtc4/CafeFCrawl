@@ -5,9 +5,14 @@ import os
 import time
 from icecream import ic
 
+pd.set_option('display.max_columns', None)
+
 chrome_drive = "../chromedriver"
 os.environ['webdrive.chrome.drive'] = chrome_drive
 chrome_options = Options()
+
+raw_name = ['Ngày', 'Giá đóng cửa', 'GD khớp lệnh', 'Giá mở cửa', 'Giá cao nhất', 'Giá thấp nhất']
+new_name = ["Date", "Close", 'Volume', 'Value', "Open", "High", "Low"]
 
 
 class CafeF:
@@ -19,10 +24,15 @@ class CafeF:
 
     @staticmethod
     def clean(df):
-        df = df.iloc[2:, [0, 2, 5, 9, 10, 11]]
-        df.columns = ["Date", "Close", 'Volume', "Open", "High", "Low"]
+        # ic(df.iloc[0, :].values)
+        # if df.shape[1] == 14:
+        #     df = df.iloc[2:, [0, 2, 6, 11, 12, 13]]
+        # if df.shape[1] == 13:
+        #     df = df.iloc[2:, [0, 2, 5, 9, 10, 11]]
+        df.columns = df.iloc[0, :].values
+        df = df.loc[2:, :][raw_name]
+        df.columns = new_name
         df["Date"] = pd.to_datetime(df["Date"], format='%d/%m/%Y')
-
         for col in df.columns[1:]:
             df[col] = pd.to_numeric(df[col])
         df[["Close", "Open", "High", "Low"]] = df[["Close", "Open", "High", "Low"]] * 1000
@@ -36,7 +46,7 @@ class CafeF:
             ic("Invalidate!")
             return
         ic(df.head())
-        while len(df) >= 5:
+        while len(df) >= 5 and page != 50:
             self.drive.execute_script("""__doPostBack('ctl00$ContentPlaceHolder1$ctl03$pager1','{}')""".format(page))
             time.sleep(0.5)
             df = pd.read_html(self.drive.page_source, encoding='utf-8')[1]
@@ -44,7 +54,7 @@ class CafeF:
             page += 1
             entry.append(df)
             ic('Page: ', len(entry))
-        df = pd.concat(entry)
+        df = pd.concat(entry).reset_index(drop=True)
         df.to_csv('../data/{}.csv'.format(self.mck), header=True)
 
 
@@ -65,15 +75,14 @@ class Crawl:
                     ic("Completed with ", mck)
                 else:
                     ic('Invalidate')
-        if isinstance(self.mcks, str):
-            if self.mcks in exists:
-                CafeF(self.mcks).get_response()
-                ic("Completed with ", self.mcks)
-            else:
-                ic('Invalidate')
+        if isinstance(self.mcks, str) and self.mcks in exists:
+            CafeF(self.mcks).get_response()
+            ic("Completed with ", self.mcks)
+        else:
+            ic('Invalidate')
 
 
 if __name__ == '__main__':
-    Crawl(['BSA']).run()
+    Crawl(['BSI', 'BVG', 'CAG', 'CIMBVinashin', 'CLS', 'VNM', 'VCB', 'VNA']).run()
     ic("Crawled!")
 
