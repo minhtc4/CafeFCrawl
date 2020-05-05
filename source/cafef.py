@@ -4,8 +4,8 @@ import pandas as pd
 import os
 import time
 from icecream import ic
-
-pd.set_option('display.max_columns', None)
+import random
+# pd.set_option('display.max_columns', None)
 
 chrome_drive = "../chromedriver"
 os.environ['webdrive.chrome.drive'] = chrome_drive
@@ -48,7 +48,7 @@ class CafeF:
         ic(df.head())
         while len(df) >= 5 and page != 50:
             self.drive.execute_script("""__doPostBack('ctl00$ContentPlaceHolder1$ctl03$pager1','{}')""".format(page))
-            time.sleep(0.5)
+            time.sleep(random.uniform(0.5, 0.9))
             df = pd.read_html(self.drive.page_source, encoding='utf-8')[1]
             df = self.clean(df)
             page += 1
@@ -83,6 +83,5 @@ class Crawl:
 
 
 if __name__ == '__main__':
-    Crawl(['BSI', 'BVG', 'CAG', 'CIMBVinashin', 'CLS', 'VNM', 'VCB', 'VNA']).run()
+    Crawl(['VNM']).run()
     ic("Crawled!")
-
