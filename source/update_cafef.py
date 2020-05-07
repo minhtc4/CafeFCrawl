@@ -6,28 +6,28 @@ from icecream import ic
 LOG_FILENAME = '../log/ckk.log'
 logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG)
 
-link = 'https://s.cafef.vn/Lich-su-giao-dich-{}-1.chn'
-raw_name = ['Ngày', 'Giá đóng cửa', 'GD khớp lệnh', 'Giá mở cửa', 'Giá cao nhất', 'Giá thấp nhất']
-new_name = ["Date", "Close", 'Volume', 'Value', "Open", "High", "Low"]
-ordered = ['Date', 'Close', 'Open', 'High', 'Low', 'Volume']
+LINK = 'https://s.cafef.vn/Lich-su-giao-dich-{}-1.chn'
+RAW_NAME = ['Ngày', 'Giá đóng cửa', 'GD khớp lệnh', 'Giá mở cửa', 'Giá cao nhất', 'Giá thấp nhất']
+NEW_NAME = ["Date", "Close", 'Volume', 'Value', "Open", "High", "Low"]
+ORDERED = ['Date', 'Close', 'Open', 'High', 'Low', 'Volume']
 
 
 class Crawl:
     def __init__(self, mck):
         self.mck = mck
-        self.link = link.format(self.mck)
+        self.link = LINK.format(self.mck)
         self.df_old, self.df_new = None, None
 
     @staticmethod
     def clean(df):
         df.columns = df.iloc[0, :].values
-        df = df.loc[2:, :][raw_name]
-        df.columns = new_name
+        df = df.loc[2:, :][RAW_NAME]
+        df.columns = NEW_NAME
         df["Date"] = pd.to_datetime(df["Date"], format='%d/%m/%Y')
         for col in df.columns[1:]:
             df[col] = pd.to_numeric(df[col])
         df[["Close", "Open", "High", "Low"]] = df[["Close", "Open", "High", "Low"]] * 1000
-        df = df[ordered]
+        df = df[ORDERED]
         return df
 
     def get_response(self):
