@@ -1,18 +1,20 @@
+import os
+import random
+import time
+
+import pandas as pd
+from icecream import ic
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-import pandas as pd
-import os
-import time
-from icecream import ic
-import random
+
 # pd.set_option('display.max_columns', None)
 
 chrome_drive = "../chromedriver"
 os.environ['webdrive.chrome.drive'] = chrome_drive
 chrome_options = Options()
 
-raw_name = ['Ngày', 'Giá đóng cửa', 'GD khớp lệnh', 'Giá mở cửa', 'Giá cao nhất', 'Giá thấp nhất']
-new_name = ["Date", "Close", 'Volume', 'Value', "Open", "High", "Low"]
+RAW_NAME = ['Ngày', 'Giá đóng cửa', 'GD khớp lệnh', 'Giá mở cửa', 'Giá cao nhất', 'Giá thấp nhất']
+NEW_NAME = ["Date", "Close", 'Volume', 'Value', "Open", "High", "Low"]
 
 
 class CafeF:
@@ -24,14 +26,9 @@ class CafeF:
 
     @staticmethod
     def clean(df):
-        # ic(df.iloc[0, :].values)
-        # if df.shape[1] == 14:
-        #     df = df.iloc[2:, [0, 2, 6, 11, 12, 13]]
-        # if df.shape[1] == 13:
-        #     df = df.iloc[2:, [0, 2, 5, 9, 10, 11]]
         df.columns = df.iloc[0, :].values
-        df = df.loc[2:, :][raw_name]
-        df.columns = new_name
+        df = df.loc[2:, :][RAW_NAME]
+        df.columns = NEW_NAME
         df["Date"] = pd.to_datetime(df["Date"], format='%d/%m/%Y')
         for col in df.columns[1:]:
             df[col] = pd.to_numeric(df[col])

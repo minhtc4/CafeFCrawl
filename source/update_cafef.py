@@ -1,7 +1,15 @@
+import logging
+
 import pandas as pd
 from icecream import ic
 
+LOG_FILENAME = '../log/ckk.log'
+logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG)
+
 link = 'https://s.cafef.vn/Lich-su-giao-dich-{}-1.chn'
+raw_name = ['Ngày', 'Giá đóng cửa', 'GD khớp lệnh', 'Giá mở cửa', 'Giá cao nhất', 'Giá thấp nhất']
+new_name = ["Date", "Close", 'Volume', 'Value', "Open", "High", "Low"]
+ordered = ['Date', 'Close', 'Open', 'High', 'Low', 'Volume']
 
 
 class Crawl:
@@ -10,16 +18,21 @@ class Crawl:
         self.link = link.format(self.mck)
         self.df_old, self.df_new = None, None
 
+    @staticmethod
+    def clean(df):
+        df.columns = df.iloc[0, :].values
+        df = df.loc[2:, :][raw_name]
+        df.columns = new_name
+        df["Date"] = pd.to_datetime(df["Date"], format='%d/%m/%Y')
+        for col in df.columns[1:]:
+            df[col] = pd.to_numeric(df[col])
+        df[["Close", "Open", "High", "Low"]] = df[["Close", "Open", "High", "Low"]] * 1000
+        df = df[ordered]
+        return df
+
     def get_response(self):
         df_new = pd.read_html(self.link, encoding='utf-8')[1]
-
-        df_new = df_new.iloc[2:, [0, 2, 5, 9, 10, 11]]
-        df_new.columns = ["Date", "Close", 'Volume', "Open", "High", "Low"]
-        df_new["Date"] = pd.to_datetime(df_new["Date"], format='%d/%m/%Y')
-
-        for col in df_new.columns[1:]:
-            df_new[col] = pd.to_numeric(df_new[col])
-        df_new[["Close", "Open", "High", "Low"]] = df_new[["Close", "Open", "High", "Low"]] * 1000
+        df_new = self.clean(df_new)
         return df_new
 
     def process_old_data(self):
@@ -38,29 +51,28 @@ class Crawl:
     def merger_to_old_data(self):
         self.df_new = self.get_response()
         self.df_old = self.process_old_data()
-        ic(len(self.df_new))
-        ic(len(self.df_old))
         self.df_new.set_index('Date', inplace=True)
         self.df_old.set_index('Date', inplace=True)
         add_ = [i for i in self.df_new.index if i not in self.df_old.index]
-        ic(add_)
+        logging.info(add_)
         if add_:
             for dt in add_:
                 self.df_old.loc[dt, :] = self.df_new.loc[dt, :]
         self.df_old = self.df_old.sort_index(ascending=False)
-        ic("After merge ", self.df_old.head())
         return self.df_old
 
-    def write_csv(self):
-        ic(self.mck)
+    def run(self):
         df = self.merger_to_old_data()
         df.to_csv('../data/{}.csv'.format(self.mck))
 
 
 if __name__ == '__main__':
-    VN30 = ["ABT", "BID", "BVH", "CTD", 'CTG', 'EIB', 'FPT', 'GAS', 'HDB', 'HPG', 'MBB', 'MSN', 'MWG',
-            'NVL', 'PLX', 'PNJ', 'POW', 'REE', 'ROS', 'SAB', 'SBT', 'SSI', 'STB', 'TCB', 'VCB', 'VHM',
-            'VIC', 'VJC', 'VNM', 'VPB', 'VRE']
-
-    # for ck in VN30:
-    #     Crawl(ck).write_csv()
+    stocks = pd.read_csv('../stock.csv')
+    stocks = stocks.values
+    for index, stock in stocks:
+        try:
+            ic(index, stock)
+            logging.info((index, stock))
+            Crawl(stock).run()
+        except Exception as e:
+            logging.error(e)

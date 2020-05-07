@@ -1,8 +1,714 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22b66f3b-1eaf-40da-9d6f-d3d6af11c733" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/source/load_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/load_stock.py" afterDir="false" />
+    <list default="true" id="22b66f3b-1eaf-40da-9d6f-d3d6af11c733" name="Default Changelist" comment="Final Version, Please run update_cafef.py at least 1 times in a month">
+      <change afterPath="$PROJECT_DIR$/source/rename.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ACB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BSA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BSI.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/BSI.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BVG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CAG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CLS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử AAA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử AAM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ABC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ABT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ACL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ACM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ACV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ADC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ADP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ADS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử AFX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử AGF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử AGR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử AGX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ALT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ALV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử AMC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử AMD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử AME.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử AMP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử AMV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ANT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử APC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử APG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử API.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ARM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ASA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ASM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ASP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ATG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử AVF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BBC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BBS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BCE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BDB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BDG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BED.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BEL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BHC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BHN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BHP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BIC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BID.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BII.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BKC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BLF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BLI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BMC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BMI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BMP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BPC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BSC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BSG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BSI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BSP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BTB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BTC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BTD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BTP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BTS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BTT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BTV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BVH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BVN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BWA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử BXH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử C32.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử C47.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử C92.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CAD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CAN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CAP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CAV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CCL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CCP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CDN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CDO.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CEC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CEO.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CGP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CID.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CII.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CJC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CKD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CLG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CLH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CLW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CLX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CMC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CMF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CMG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CMI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CMV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CNG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CNN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử COM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CPC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CSC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CSM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CSV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CTA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CTB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CTC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CTI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CTN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CTP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CTS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CTT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CX8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử CYC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử D11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử D2D.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DAC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DAD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DAE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DAG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DAP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DAT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DBC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DC4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DCL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DCM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DCT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DDM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DDN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DGC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DGT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DHA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DHC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DHG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DHM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DHP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DHT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DIC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DID.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DLG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DLR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DMC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DND.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DNL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DNM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DNP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DNS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DNW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DNY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DOC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DPM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DPS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DQC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DRC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DRH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DTA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DTC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DTK.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DTL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DTT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DVC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DVP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DXG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DXV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử DZM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử EBS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ECI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử EFI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử EIC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử EIN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ELC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử EMG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử FCM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử FDC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử FDG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử FTM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử FTS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử G20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử G36.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GAS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GDT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GGG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GHC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GIL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GMC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GMD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GMX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GSM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GSP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GTA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GTH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GTN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GTS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử GTT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HAC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HAG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HAH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HAI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HAP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HAR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HAS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HAT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HBD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HBS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HCC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HCD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HCI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HD2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HDA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HDC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HDG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HDM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HDO.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HEC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HEM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HES.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HFC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HGM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HHA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HHG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HHS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HID.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HIG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HLD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HLG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HLR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HMC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HMG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HMH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HNB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HND.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HNF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HNG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HNP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HNT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HOM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HPG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HPP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HPT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HQC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HRT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HSG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HSI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HST.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HT1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HTL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HTP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HTR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HU1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HU3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HU4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HUT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HVA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HVG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HVT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử HVX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ICC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ICN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử IDI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử IDJ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử IDV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử IFS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử IHK.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử IJC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử IME.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử IMP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử IN4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử INC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử IPA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ISH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử IST.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ITA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ITC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ITD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ITQ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ITS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử IVS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KAC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KBC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KCB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KCE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KDC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KDH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KDM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KHA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KHB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KHP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KIP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KKC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KLF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KMR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KMT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KPF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KSB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KSD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KSH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KSK.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KST.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KSV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KTB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KTL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KTS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử KVC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử L10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử L14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử L45.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử L61.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử L62.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử L63.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LAF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LAS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LBE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LBM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LCD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LCM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LDP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LGC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LM3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LM7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LM8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LO5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LSS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử LTC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MAC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MAS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MBB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MBG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MCC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MCO.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MCP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MDC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MDF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MGC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MHC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MHL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MIC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MLS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MPT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MSC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MTA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MTG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MTH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MTP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử MVB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NAG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NAS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NAV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NBB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NBP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NBR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NCS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NCT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ND2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NDC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NDF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NDP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NDX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NET.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NHC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NHP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NKG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NLG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NMK.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NNC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NNG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NOS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NS2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NS3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NSC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NSG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NST.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NT2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NTB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NTL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NTP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NTW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NUE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NVB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử NVL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử OCH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử OGC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ONE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ONW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử OPC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PBP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PCN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PCT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PDB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PDC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PDR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PEQ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PET.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PFL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PGC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PGD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PHP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PHR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PIA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PIC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PIT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PIV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PKR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PMB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PMC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PMJ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PMS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PNC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PND.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PNJ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PNT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử POM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử POT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PPE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PPY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PRC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PSB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PSD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PSI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PSL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PSP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PTB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PTC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PTD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PTE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PTH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PTI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PTK.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PTT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PVA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PVB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PVD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PVE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PVG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PVI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PVL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PVM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PVO.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PVP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PVS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PVT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PXA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PXI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PXL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử PXS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử QBS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử QHD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử QNC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử QNS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử QSP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử QST.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử QTC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử RAL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử RCC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử RCD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử RCL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử RDP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử REE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ROS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử S12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử S27.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử S4A.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử S55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử S96.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử S99.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SAC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SAF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SAM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SAV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SB1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SBA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SBD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SBL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SBS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SBT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SCL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SD2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SD3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SD4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SD5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SD6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SD7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SD8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SD9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SDB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SDC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SDE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SDJ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SDN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SDP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SDT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SDU.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SEA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SEB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SFC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SFG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SFI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SFN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SGD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SGH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SGP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SGT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SHA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SHI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SHN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SHP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SHS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SHX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SIC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SID.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SJC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SJE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SJS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SKG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SLS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SMC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SMN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SMT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SPB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SPC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SPD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SPH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SPM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SPP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SQC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SRB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SRC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SRF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SRT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SSN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử ST8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử STB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử STC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử STG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử STK.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử STP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử STT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử STV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SVC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SVI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SVT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SWC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SZE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử SZL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TA9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TAC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TAG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TBC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TBT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TBX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TC6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TCH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TCO.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TCT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TDC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TDH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TDS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TDW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TEG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TET.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TFC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TGP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử THG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử THS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử THW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TIE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TIG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TIP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TIX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TKC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TL4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TLG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TLH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TMB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TMP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TMS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TMW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TMX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TNA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TNB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TNC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TND.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TNG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TNM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TNP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TNS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TPP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TRA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TRS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TSB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TSC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TST.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TTC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TTD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TTF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TTH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TUG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TV3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TV4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TVB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TVN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TVS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TW3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TXM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử TYA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử UDC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử UIC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử UPH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử V11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử V12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử V15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử V21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VAT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VBC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VBH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VC1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VC3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VC5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VC6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VC7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VCA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VCB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VCC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VCG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VCR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VCW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VCX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VE1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VE2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VE3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VE8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VE9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VEE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VEF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VES.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VFG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VGP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VHC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VHF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VHG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VHH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VHL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VID.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VIG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VIS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VIX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VKP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VLA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VLB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VLF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VLG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VMA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VMC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VMD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VMS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VNB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VNC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VND.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VNE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VNF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VNH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VNI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VNL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VNP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VNR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VNS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VNT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VOC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VOS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VPA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VPR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VPS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VQC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VSA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VSH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VSN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VST.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VT1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VTB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VTC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VTG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VTH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VTI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VTL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VTO.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VTV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VTX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VWS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử VXB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử WCS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử WSB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử WSS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử X18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử X77.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử XHC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dữ liệu Lịch sử YRC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/VCB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/VCB.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/VNA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/VNM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/cafef.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/cafef.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/update_cafef.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/update_cafef.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +718,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/cafef.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="73" column="45" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+            <state relative-caret-position="169">
+              <caret line="25" column="4" selection-start-line="14" selection-end-line="14" selection-end-column="8" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -25,44 +731,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/investing.py">
+        <entry file="file://$PROJECT_DIR$/data/WSS.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/update_cafef.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+            <state relative-caret-position="237">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/ACB.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="42" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="42" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/Dữ liệu Lịch sử AAA.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-6637" />
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/load_stock.py">
+        <entry file="file://$PROJECT_DIR$/log/ckk.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="127">
+              <caret line="617" column="22" selection-start-line="617" selection-start-column="22" selection-end-line="617" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -105,6 +801,10 @@
         <option value="$PROJECT_DIR$/source/extract_link.py" />
         <option value="$PROJECT_DIR$/source/investing.py" />
         <option value="$PROJECT_DIR$/source/load_stock.py" />
+        <option value="$PROJECT_DIR$/source/rename.py" />
+        <option value="$PROJECT_DIR$/stock.csv" />
+        <option value="$PROJECT_DIR$/source/update_cafef.py" />
+        <option value="$PROJECT_DIR$/source/cafef.py" />
       </list>
     </option>
   </component>
@@ -118,7 +818,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,7 +828,7 @@
             <path>
               <item name="CKK" type="b2602c69:ProjectViewProjectNode" />
               <item name="CKK" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CKK" type="b2602c69:ProjectViewProjectNode" />
@@ -140,6 +839,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,29 +867,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.load_stock">
-    <configuration name="crawl_cafef" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CKK" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/update_cafef.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.update_cafef">
     <configuration name="extract_link" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,7 +934,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="selenium" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rename" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CKK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,7 +947,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/cafef.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/rename.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="update_cafef" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CKK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/update_cafef.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -280,11 +980,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.update_cafef" />
+        <item itemvalue="Python.rename" />
         <item itemvalue="Python.load_stock" />
         <item itemvalue="Python.investing" />
         <item itemvalue="Python.extract_link" />
-        <item itemvalue="Python.selenium" />
-        <item itemvalue="Python.crawl_cafef" />
       </list>
     </recent_temporary>
   </component>
@@ -305,17 +1005,19 @@
       <workItem from="1588591088208" duration="4395000" />
       <workItem from="1588643943306" duration="338000" />
       <workItem from="1588644747720" duration="11800000" />
+      <workItem from="1588746242364" duration="124000" />
+      <workItem from="1588823613684" duration="3465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36275000" />
+    <option name="totallyTimeSpent" value="39864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -327,7 +1029,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Pylint" order="9" />
+      <window_info active="true" anchor="bottom" id="Pylint" order="9" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32771084" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -366,18 +1068,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final Version, Please run update_cafef.py at least 1 times in a month" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Version, Please run update_cafef.py at least 1 times in a month" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CKK$load_stock.coverage" NAME="load_stock Coverage Results" MODIFIED="1588684268849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
     <SUITE FILE_PATH="coverage/CKK$crawl_cafef.coverage" NAME="crawl_cafef Coverage Results" MODIFIED="1588050959766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
     <SUITE FILE_PATH="coverage/CKK$investing.coverage" NAME="investing Coverage Results" MODIFIED="1588657517193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
     <SUITE FILE_PATH="coverage/CKK$extract_link.coverage" NAME="extract_link Coverage Results" MODIFIED="1588653952936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
+    <SUITE FILE_PATH="coverage/CKK$rename.coverage" NAME="rename Coverage Results" MODIFIED="1588825445245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
     <SUITE FILE_PATH="coverage/CKK$selenium.coverage" NAME="selenium Coverage Results" MODIFIED="1588645956129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
+    <SUITE FILE_PATH="coverage/CKK$update_cafef.coverage" NAME="update_cafef Coverage Results" MODIFIED="1588826733799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/final/VCB.csv" />
-    <entry file="file://$PROJECT_DIR$/data/VCB.csv" />
-    <entry file="file://$PROJECT_DIR$/data/PNJ.csv" />
-    <entry file="file://$PROJECT_DIR$/final/BID.csv" />
     <entry file="file://$PROJECT_DIR$/final/CTD.csv" />
     <entry file="file://$PROJECT_DIR$/final/FPT.csv" />
     <entry file="file://$PROJECT_DIR$/final/MSN.csv" />
@@ -395,75 +1099,65 @@
     <entry file="file://$PROJECT_DIR$/source/test.csv" />
     <entry file="file://$PROJECT_DIR$/source/ACB.csv" />
     <entry file="file://$PROJECT_DIR$/data/APL.csv" />
-    <entry file="file://$PROJECT_DIR$/source/update_cafef.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/vcd.csv" />
     <entry file="file://$PROJECT_DIR$/data/BSA.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mck.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mck.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="513">
           <caret line="355" column="7" selection-start-line="355" selection-start-column="4" selection-end-line="355" selection-end-column="7" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/BSI.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/CAG.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/BVG.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/VNA.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/VNM.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/CLS.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="6165">
           <caret line="411" column="39" selection-start-line="411" selection-start-column="35" selection-end-line="411" selection-end-column="39" />
         </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py">
@@ -480,19 +1174,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stocks.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/cafef.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="73" column="45" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks.txt" />
     <entry file="file://$PROJECT_DIR$/source/extract_link.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -508,7 +1190,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/investing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="600">
           <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -517,27 +1199,176 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/ACB.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="42" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="42" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/Dữ liệu Lịch sử AAA.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-6637" />
-      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/ABC.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/ADP.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/AME.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/BBS.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/BMC.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/CDN.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/BXH.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/rename.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/load_stock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/WSS.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="421">
+          <caret line="104" column="7" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/BID.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ABT.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-7233">
+          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/log.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log.out.1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log.out.2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log.out.3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/example.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/ckk.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="617" column="22" selection-start-line="617" selection-start-column="22" selection-end-line="617" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/AAA.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/update_cafef.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/cafef.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="25" column="4" selection-start-line="14" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
