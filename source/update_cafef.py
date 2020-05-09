@@ -33,16 +33,18 @@ class Crawl:
     def get_response(self):
         df_new = pd.read_html(self.link, encoding='utf-8')[1]
         df_new = self.clean(df_new)
+        ic(df_new)
         return df_new
 
     def process_old_data(self):
-        df_old = pd.read_csv("../data/{}.csv".format(self.mck)).iloc[:, :-1]
-        df_old.columns = ["Date", "Close", "Open", "High", "Low", "Volume"]
+        df_old = pd.read_csv("../data/{}.csv".format(self.mck))
+        # ic(len(df_old.columns))
+        df_old.columns = ORDERED
 
-        df_old["Date"] = pd.to_datetime(df_old["Date"], format='%d/%m/%Y')
-        df_old["Volume"] = (df_old['Volume'].replace(r'[KM]+$', '', regex=True).replace("-", 0).astype(float) * \
-                            df_old['Volume'].str.extract(r'[\d\.]+([KM]+)', expand=False) \
-                            .fillna(1).replace(['K', 'M'], [10 ** 3, 10 ** 6]).astype(int))
+        df_old["Date"] = pd.to_datetime(df_old["Date"], format='%Y-%m-%d')
+        # df_old["Volume"] = (df_old['Volume'].replace(r'[KM]+$', '', regex=True).replace("-", 0).astype(float) * \
+        #                     df_old['Volume'].str.extract(r'[\d\.]+([KM]+)', expand=False) \
+        #                     .fillna(1).replace(['K', 'M'], [10 ** 3, 10 ** 6]).astype(int))
 
         for col in df_old.columns[1:]:
             df_old[col] = df_old[col].astype('str').str.replace(',', "").astype('float')
@@ -76,3 +78,4 @@ if __name__ == '__main__':
             Crawl(stock).run()
         except Exception as e:
             logging.error(e)
+    # Crawl('AAA').run()
